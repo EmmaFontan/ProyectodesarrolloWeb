@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contactate con nosotros</title>
+        <link rel="stylesheet" href="../css/estilos.css">
+        <link rel="icon" type="image/png" href="../favicon.ico.png">
+    </head>
+    <body>
+        <header class="header">
+            <section class="prueba">
+                <div class="contenedorlogo">
+                    <a href="../index.html">
+                    <img class="logo" src="../assets/img/logoprincipal (2).png" alt="">
+                    </a>
+                </div>
+                <nav class="navegacion">
+                    <ul class="listnav">
+                        <li class="listaitem"><a class="linknav" href="../index.html">Nosotros</a></li>
+                        <li class="listaitem"><a class="linknav" href="../pages/galeria.html">Galeria</a></li>
+                        <li class="listaitem"><a class="linknav" href="../pages/cursos.html">Cursos</a></li>
+                        <li class="listaitem"><a class="linknav" href="../pages/testimonios.html">Testimonios</a></li>
+                        <li class="listaitem"><a class="linknav" href="../pages/contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </section>
+            
+        </header>
+        <main>
+            <section class="formularioconmapa">
+            <div class="formulariodecontacto">
+                <h1>Contactate con nosotros</h1>
+                <form action="404.html"> <!-- pagina de error-->
+                    <div>
+                        <label id="labelnombre" for="nombre">Nombre y Apellido</label>  
+                    </div>
+                    <div>
+                    <!-- agregue required para que le obligue llenar los datos del formulario-->
+                    <!-- pacegolder para que en el formulario le aparezca lo que tiene que rellenar con los datos correctos-->
+                        <input type="text" name="nombre" id="nombre" placeholder="ingrese su nombre" required>   
+                         <input type="text" name="apellido" id="apellido" placeholder="Ingrese su Apellido" required>
+                    </div>
+                    <div>
+                        <label for="email">E-mail</label>
+                    </div>
+                    <div>
+                        <input type="email" name="email" id="email" placeholder="ejemplo@servidor.com" required>
+                    </div>
+                    <div>
+                        <label for="curso">curso</label>
+                    </div>
+                    <div>
+                        <input type="curso" name="curso" id="curso" placeholder="Ingrese el curso">
+                    </div>
+                    <div>
+                        <label for="mensaje">Mensaje</label>
+                    </div>
+                    <div>
+                        <!-- textarea para que el usuario pueda dejar un mensaje-->
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                     </div>
+                    <div>
+                    <!-- un input de tipo submit para crear un boton que pueda enviar dicho formulario -->
+                        <input type="submit" name="enviar" id="enviar" value="enviar">
+                    </div>
+            </div>
+            <div>
+                <h2>Paises Disponibles</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63578465.    00206775!2d-109.95410225100034!3d-13.441916079646308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13. 1!3m3!1m2!1s0x9409341c355d34b5%3A0x69d40ccfc9c6e32b!2sAm%C3%A9rica%20del%20Sur!5e0!3m2!1ses  !2sar!4v1694487838673!5m2!1ses!2sar" width="400" height="300" style="border:0;"   allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            </section>
+            </form>
+        </main> 
+        <footer>
+        </footer>
+
+    </body>
+</html>

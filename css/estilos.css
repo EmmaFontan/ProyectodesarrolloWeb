@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:Rokkitt-VariableFont_wght ;
+    src: url(../assets/font/Rokkitt-VariableFont_wght.ttf);
+    /* Agregue la familia de la fuente Rokkitt para los titulos de todas las paginas*/
+}
+.tamañotitulo {
+    font-size: 4rem;
+    color: #790000;
+}
+.header {
+    .logo
+    {width: 150px
+    }
+    background-color: #FADA8B;
+    color: white;
+}
+.prueba {
+    display: flex;
+    flex-wrap: wrap;
+}
+.espacio{
+    padding-top: 20px;
+}
+.listnav {
+    /* ul */
+    background-color: black;
+    list-style: none; /* Le saque los puntos a la lista de navegacion*/
+    text-align: right; /* que se encuente a la derecha de la pantalla*/
+}
+.listaitem {
+    display: inline-block; /* utilizamos el inline-block para que este uno al lado del otro*/
+}
+/* estilos.css */
+
+/* Estilo para los enlaces dentro de la clase linknav */
+.linknav a {
+    text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+    padding: 10px 20px; /* Ajusta el espacio interno del botón */
+    border: 1px solid #790000; /* Agrega un borde de 1 píxel sólido rojo al botón */
+    color: #790000; /* Establece el color del texto del botón a rojo */
+    transition: all 0.3s ease; /* Agrega una transición suave para todos los cambios (color, borde, etc.) */
+    border-radius: 5px; /* Agrega esquinas redondeadas al botón */
+}
+
+/* Cambiar el estilo del botón cuando el mouse está sobre él (hover) */
+.linknav a:hover {
+    background-color: #790000; /* Cambia el color de fondo del botón a rojo */
+    color: #ffffff; /* Cambia el color del texto a blanco */
+}
+
+.linknav {
+    
+    /* atributos */
+
+ /* le sacamos la decoracion que viene de herencia a la lista*/
+text-decoration: none;
+    color: #790000; /* le ponemos el mismo color del logo a los titulos y navegacion*/
+    font-size: 20px;
+    margin-right: 10px;
+    padding-top: 100px;
+    margin-bottom: 10px; 
+}
+.colorbordo{
+    color: #790000;
+} 
+.titulosprincipales {
+    text-align: center;
+    font-size: 60px; 
+    font-family: Rokkitt-VariableFont_wght; /* fuente a utilizar para todos los titulos*/
+    color: #790000;}
+.imagenfondopiedepagina {
+    background-image: url(../assets/img/piedepagina.png); /* le agregamos una imagen estilo montaña para el pie de pagina*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 99%;
+}
+.iconwsp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 5rem;
+    color: rgb(5, 122, 0);
+}
+.galeria {
+    display: flex; /* para que quede una al lado de la otra*/
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.galeriaimagen {
+    border: 2px solid #790000;
+    width: 400px;
+    height: 400px;  
+}
+.galeriaimagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.formularioconmapa {
+    height: 100vh;
+    display: flex;
+}
+.formulariodecontato{
+    height: 100vh;
+    display: flex;
+
+}
