@@ -16,11 +16,9 @@
     </head>
     <body>
         <header class="header">
-          
-
-            <section class="row">
+            <section class="row container-fluid">
                 <nav class="navbar navbar-expand-lg navbar-light">
-                    <div class="container-fluid">
+                    <div class="container-fluid ">
                         <a href="./index.html">
                             <img class="logo" src="./assets/img/logoprincipal (2).png" alt="">
                         </a>
@@ -28,19 +26,22 @@
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
-                      <div class="collapse navbar-collapse container-fluid justify-content-end" id="navbarNav">
+                      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul class="navbar-nav">
                           <li class="linknav">
                             <a class="linknav" href="#">Nosotros</a>
                           </li>
                           <li class="linknav">
-                            <a class="linknav" href="#">Features</a>
+                            <a class="linknav" href="./pages/galeria.html">Galeria</a>
                           </li>
                           <li class="linknav">
-                            <a class="linknav" href="#">Pricing</a>
+                            <a class="linknav" href="./pages/cursos.html">Cursos</a>
                           </li>
                           <li class="linknav">
-                            <a class="linknav" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            <a class="linknav" href="./pages/testimonios.html">Testimonios</a>
+                          </li>
+                          <li class="linknav">
+                            <a class="linknav" href="./pages/contacto.html">Contacto</a>
                           </li>
                         </ul>
                       </div>
@@ -52,22 +53,43 @@
         <main>
            <section class="container-fluid espacio">
                 <h1 class="container tamañotitulo">Bienvenido a Pasteleria Desde Cero: Tu Escuela de Pasteleria Online</h1>
-                <div class="row">
-                    <h2 class="col-sm-12 col-md-6">¡Bienvenido a Pasteleria Desde Cero, tu destino para descubrir el maravilloso mundo de la pastelería! Nuestros cursos de pastelería te llevarán en un viaje delicioso, desde los conceptos básicos hasta las técnicas más avanzadas. Aprende a hornear pasteles, galletas, panes y mucho más con la guía de expertos chefs pasteleros. Únete a nuestra comunidad de amantes de la repostería y conviértete en un maestro de la dulzura. ¡Prepara tus sentidos para una experiencia de aprendizaje que hará que tus postres sean irresistibles!</h2>
-                    <img class="col-sm-12 col-md-6" src="./assets/img/imagenpaginaprincipal.jpg" alt="">
+                <div class="row container-fluid">
+                    <h2 class="row col-sm-12 col-md-6 text-center">¡Bienvenido a Pasteleria Desde Cero, tu destino para descubrir el maravilloso mundo de la pastelería! Nuestros cursos de pastelería te llevarán en un viaje delicioso, desde los conceptos básicos hasta las técnicas más avanzadas. Aprende a hornear pasteles, galletas, panes y mucho más con la guía de expertos chefs pasteleros. Únete a nuestra comunidad de amantes de la repostería y conviértete en un maestro de la dulzura. ¡Prepara tus sentidos para una experiencia de aprendizaje que hará que tus postres sean irresistibles!</h2>
+                    <img class="row col-sm-12 col-md-6 tamañoimagen mb-4" src="./assets/img/imagenpaginaprincipal.jpg" alt="">
                 </div>
            </section>
-        </main>
-        <footer class="imagenfondopiedepagina">
-            <div class="wsp">
-                <a href="https://wa.link/q5ottk">
-                    <i class="fa-brands fa-whatsapp iconwsp"></i>
-                </a>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum sunt ratione laboriosam quo consequatur inventore quod dicta voluptatem doloribus, quis perspiciatis saepe, aut, dolore est ullam amet qui. Provident, corrupti.jsjsS
-                </p>
-            </div>
-
+          </main>
+          <footer>
+              <section class="container-fluid piedepagina">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h3>Tu Pastelería desde Cero</h3>
+                            <p>Descubre el placer en cada bocado.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <h4>Nuestras redes</h4>
+                            <ul class="list-inline logosredes">
+                                <li class="logosredes"><a href="#" target=""><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="logosredes"><a href="#" target=""><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h4>Enlaces Rápidos</h4>
+                            <ul class="enlacesrapidos">
+                                <li><a href="#">Nosotros</li>
+                                <li><a href="./pages/galeria.html">Galeria</a></li>
+                                <li><a href="./pages/cursos.html">Cursos</a></li>
+                                <li><a href="./pages/testimonios.html">Testimonios</a></li>
+                                <li><a href="./pages/contacto.html">Contacto</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-3">
+                    <p>&copy; 2023 Tu Pastelería desde cero. Todos los derechos reservados.</p>
+                </div>
+              </section>
         </footer>
         <script src="./js/bootstrap.bundle.min.js"></script>
     </body>

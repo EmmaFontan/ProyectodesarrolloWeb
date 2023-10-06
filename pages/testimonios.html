@@ -4,31 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Testimonios</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="icon" type="image/png" href="../favicon.ico.png">
+    <script src="https://kit.fontawesome.com/b4aeca5055.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="header">
-        <div class="contenedorlogo">
-            <a href="../index.html">
-            <img class="logo" src="../assets/img/logoprincipal (2).png" alt="">
-            </a>
-        </div>
-        <nav class="navegacion">
-            <ul class="listnav">
-                <li class="listaitem"><a class="linknav" href="../index.html">Nosotros</a></li>
-                <li class="listaitem"><a class="linknav" href="../pages/galeria.html">Galeria</a></li>
-                <li class="listaitem"><a class="linknav" href="../pages/cursos.html">Cursos</a></li>
-                <li class="listaitem"><a class="linknav" href="../pages/testimonios.html">Testimonios</a></li>
-                <li class="listaitem"><a class="linknav" href="../pages/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+      <header class="header">
+            <section class="row container-fluid">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid ">
+                        <a href="../index.html">
+                            <img class="logo" src="../assets/img/logoprincipal (2).png" alt="">
+                        </a>
+                      <!--<a class="navbar-brand" href="#">Navbar</a>-->
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="linknav">
+                            <a class="linknav" href="../index.html">Nosotros</a>
+                          </li>
+                          <li class="linknav">
+                            <a class="linknav" href="../pages/galeria.html">Galeria</a>
+                          </li>
+                          <li class="linknav">
+                            <a class="linknav" href="../pages/cursos.html">Cursos</a>
+                          </li>
+                          <li class="linknav">
+                            <a class="linknav" href="../pages/testimonios.html">Testimonios</a>
+                          </li>
+                          <li class="linknav">
+                            <a class="linknav" href="../pages/contacto.html">Contacto</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </section>
     </header>
     <main>
+      <h1 class="titulosprincipales">Deliciosas Experiencias: Testimonios de Nuestros Amantes de la Pastelería</h1>
+        <h2 class="row container-fluid col-sm-12 col-md-12 mb-4 text-center">
+          "Descubre las historias dulces y experiencias inolvidables de nuestros clientes en el mundo de la pastelería. Lee sus testimonios llenos de sabores, texturas y amor por los postres. ¡Sumérgete en un viaje de delicias compartidas y deja que sus historias te inspiren en tu propio viaje culinario!"
+        </h2>
+        <section class="galeria mb-4">
+          <div class=" ">
+            <img src="../assets/img/testimonio 2.png" alt="">
+        </div>
+        <div class="">
+            <img src="../assets/img/testimonio 1.png" alt="">
+        </div>
+        <div class="">
+            <img src="../assets/img/testimonio 3.png" alt="">
+        </section>
         
     </main>
     <footer>
-
+      <section class="container-fluid piedepagina">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Tu Pastelería desde Cero</h3>
+                    <p>Descubre el placer en cada bocado.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Nuestras redes</h4>
+                    <ul class="list-inline logosredes">
+                        <li class="logosredes"><a href="#" target=""><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="logosredes"><a href="#" target=""><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul class="enlacesrapidos">
+                        <li><a href="../index.html">Nosotros</li>
+                        <li><a href="../pages/galeria.html">Galeria</a></li>
+                        <li><a href="../pages/cursos.html">Cursos</a></li>
+                        <li><a href="../pages/testimonios.html">Testimonios</a></li>
+                        <li><a href="../pages/contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-3">
+            <p>&copy; 2023 Tu Pastelería desde cero. Todos los derechos reservados.</p>
+        </div>
+      </section>
     </footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

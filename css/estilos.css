@@ -19,25 +19,9 @@
     background-color: #FADA8B;
     color: white;
 }
-.prueba {
-    display: flex;
-    flex-wrap: wrap;
+.tamañoimagen {
+    height: 600px;
 }
-.espacio{
-    padding-top: 20px;
-}
-.listnav {
-    /* ul */
-    background-color: black;
-    list-style: none; /* Le saque los puntos a la lista de navegacion*/
-    text-align: right; /* que se encuente a la derecha de la pantalla*/
-}
-.listaitem {
-    display: inline-block; /* utilizamos el inline-block para que este uno al lado del otro*/
-}
-/* estilos.css */
-
-/* Estilo para los enlaces dentro de la clase linknav */
 .linknav a {
     text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
     padding: 10px 20px; /* Ajusta el espacio interno del botón */
@@ -45,48 +29,45 @@
     color: #790000; /* Establece el color del texto del botón a rojo */
     transition: all 0.3s ease; /* Agrega una transición suave para todos los cambios (color, borde, etc.) */
     border-radius: 5px; /* Agrega esquinas redondeadas al botón */
+    font-size: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;    
 }
 
 /* Cambiar el estilo del botón cuando el mouse está sobre él (hover) */
 .linknav a:hover {
-    background-color: #790000; /* Cambia el color de fondo del botón a rojo */
-    color: #ffffff; /* Cambia el color del texto a blanco */
+    background-color: #790000;
+    color: #ffffff;
 }
-
 .linknav {
-    
-    /* atributos */
-
- /* le sacamos la decoracion que viene de herencia a la lista*/
-text-decoration: none;
-    color: #790000; /* le ponemos el mismo color del logo a los titulos y navegacion*/
-    font-size: 20px;
-    margin-right: 10px;
-    padding-top: 100px;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
+    margin-top: 80px;
 }
-.colorbordo{
-    color: #790000;
-} 
+@media (max-width: 767px) {
+    .navbar-nav .linknav {
+        margin-top: 10px; /* Reduce el espacio entre los elementos de la lista */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 2px;
+        text-align: center;
+
+    }
+    .navbar-nav .linknav a {    
+
+        width: 100%;
+        padding: 8px 12px; /* Ajusta el espacio interno del botón */
+        font-size: 14px; /* Reduce el tamaño del texto */
+    }}
+
 .titulosprincipales {
     text-align: center;
     font-size: 60px; 
     font-family: Rokkitt-VariableFont_wght; /* fuente a utilizar para todos los titulos*/
     color: #790000;}
-.imagenfondopiedepagina {
-    background-image: url(../assets/img/piedepagina.png); /* le agregamos una imagen estilo montaña para el pie de pagina*/
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 99%;
-}
-.iconwsp{
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    font-size: 5rem;
-    color: rgb(5, 122, 0);
-}
+    .textogaleria {
+        font-size: 20px;
+    }
 .galeria {
     display: flex; /* para que quede una al lado de la otra*/
     flex-wrap: wrap;
@@ -103,12 +84,26 @@ text-decoration: none;
     height: 100%;
     object-fit: cover;
 }
-.formularioconmapa {
-    height: 100vh;
-    display: flex;
-}
-.formulariodecontato{
-    height: 100vh;
-    display: flex;
 
-}
+.piedepagina{
+    background-color: #FADA8B;  
+    color: #790000;
+    width: 100%;
+    .logosredes{   
+        text-decoration: none;
+        display: flex;
+        display: inline-block;
+        font-size: 20px;
+        .fab.fa-facebook-f {
+            color: #1877f2
+        }
+        .fab.fa-instagram {
+            color: #bc2a8d
+        }}
+        .enlacesrapidos a {
+            text-decoration: none;
+            color: black;
+        }
+        .mapa {
+        
+        }
