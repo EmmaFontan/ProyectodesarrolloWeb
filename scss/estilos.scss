@@ -1,32 +1,30 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import "variables.scss";
+@import "reset.scss" ;
+
+
 @font-face {
     font-family:Rokkitt-VariableFont_wght ;
-    src: url(../assets/font/Rokkitt-VariableFont_wght.ttf);
-    /* Agregue la familia de la fuente Rokkitt para los titulos de todas las paginas*/
-}
+    src: url(../assets/font/Rokkitt-VariableFont_wght.ttf);}
+ 
 .tamañotitulo {
     font-size: 4rem;
-    color: #790000;
+    color: $color-bordo;
 }
 .header {
     .logo
     {width: 150px
     }
-    background-color: #FADA8B;
+    background-color: $color-pastel;
     color: white;
 }
 .tamañoimagen {
     height: 600px;
 }
 .linknav a {
-    text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+    text-decoration: none;
     padding: 10px 20px; /* Ajusta el espacio interno del botón */
-    border: 1px solid #790000; /* Agrega un borde de 1 píxel sólido rojo al botón */
-    color: #790000; /* Establece el color del texto del botón a rojo */
+    border: 1px solid $color-bordo; /* Agrega un borde de 1 píxel sólido rojo al botón */
+    color: $color-bordo; /* Establece el color del texto del botón a rojo */
     transition: all 0.3s ease; /* Agrega una transición suave para todos los cambios (color, borde, etc.) */
     border-radius: 5px; /* Agrega esquinas redondeadas al botón */
     font-size: 20px;
@@ -36,7 +34,7 @@
 
 /* Cambiar el estilo del botón cuando el mouse está sobre él (hover) */
 .linknav a:hover {
-    background-color: #790000;
+    background-color: $color-bordo;
     color: #ffffff;
 }
 .linknav {
@@ -58,24 +56,25 @@
         width: 100%;
         padding: 8px 12px; /* Ajusta el espacio interno del botón */
         font-size: 14px; /* Reduce el tamaño del texto */
-    }}
+    }
+    }
 
 .titulosprincipales {
     text-align: center;
     font-size: 60px; 
-    font-family: Rokkitt-VariableFont_wght; /* fuente a utilizar para todos los titulos*/
-    color: #790000;}
+    font-family: Rokkitt-VariableFont_wght;
+    color: $color-bordo;}
     .textogaleria {
         font-size: 20px;
     }
 .galeria {
-    display: flex; /* para que quede una al lado de la otra*/
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
 }
 .galeriaimagen {
-    border: 2px solid #790000;
+    border: 2px solid $color-bordo;
     width: 400px;
     height: 400px;  
 }
@@ -85,23 +84,25 @@
     object-fit: cover;
 }
 
-.piedepagina{
-    background-color: #FADA8B;  
-    color: #790000;
-    width: 100%;
-    .logosredes{   
-        text-decoration: none;
-        display: flex;
-        display: inline-block;
-        font-size: 20px;
-        .fab.fa-facebook-f {
-            color: #1877f2
-        }
-        .fab.fa-instagram {
-            color: #bc2a8d
-        }}
-        .enlacesrapidos a {
+.piedepagina
+    {
+        background-color: $color-pastel;  
+        color: $color-bordo;
+        width: 100%;
+            .logosredes{   
             text-decoration: none;
-            color: black;
-        }
+            display: flex;
+            display: inline-block;
+            font-size: 20px;
+                .fab.fa-facebook-f {
+                color: #1877f2
+                }
+                .fab.fa-instagram {
+                    color: #bc2a8d
+                }
+                }
+                .enlacesrapidos a {
+                    text-decoration: none;
+                    color: black;
+                }
     }
