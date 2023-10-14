@@ -1,0 +1,22 @@
+.piedepagina
+    {
+        background-color: map-get($mapa-colores, color-pastel);
+        color: map-get($mapa-colores, color-bordo);
+        width: 100%;
+            .logosredes{   
+            text-decoration: none;
+            display: flex;
+            display: inline-block;
+            font-size: 20px;
+                .fab.fa-facebook-f {
+                color: #1877f2
+                }
+                .fab.fa-instagram {
+                    color: #bc2a8d
+                }
+                }
+                .enlacesrapidos a {
+                    text-decoration: none;
+                    color: black;
+                }
+    }
