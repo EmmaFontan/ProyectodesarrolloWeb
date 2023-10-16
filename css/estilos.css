@@ -3,10 +3,56 @@
   display: flex;
 }
 
-.tamañoimagen {
-  height: 600px;
+.tamañodetextoheader {
+  font-size: 1.8rem;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+  margin-left: 10px;
+  font-family: Mandali-Regular;
 }
 
+.tamañoimagen {
+  margin-bottom: 20px;
+  border-radius: 10px; /* Agrega bordes redondeados */
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75); /* Agrega un sombreado suave */
+}
+
+.tamañoimagen2 {
+  height: 600px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.tamañodetextoheaderh3 {
+  margin-top: 50px;
+  font-size: 2.1rem;
+  letter-spacing: 2px;
+  font-family: Mandali-Regular;
+}
+
+@media (max-width: 768px) {
+  .tamañotitulo {
+    font-size: 18px; /* Cambia el tamaño del título en dispositivos móviles */
+  }
+  .tamañodetextoheader {
+    font-size: 18px; /* Cambia el tamaño del texto de encabezado en dispositivos móviles */
+  }
+  .tamañodetextoheaderh3 {
+    font-size: 18px; /* Cambia el tamaño del texto de encabezado h3 en dispositivos móviles */
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .tamañoimagen {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .tamañoimagen2 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -80,27 +126,52 @@
 .tamañotitulo {
   font-size: 4rem;
   color: #790000;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 768px) {
+  .tamañotitulo {
+    margin-top: 10px;
+    font-size: 3rem;
+  }
 }
 
 .titulosprincipales {
+  margin-top: 20px;
   text-align: center;
   font-size: 60px;
   font-family: Rokkitt-VariableFont_wght;
   color: #790000;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 768px) {
+  .titulosprincipales {
+    font-size: 3rem;
+    margin-top: 20px;
+  }
 }
 
 .textogaleria {
-  font-size: 20px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-family: Mandali-Regular;
+}
+@media (max-width: 768px) {
+  .textogaleria {
+    font-size: 18px;
+    margin-left: 20px;
+  }
 }
 
 .galeria {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
+  gap: 15px;
 }
 .galeria .galeriaimagen {
-  border: 2px solid #790000;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
   width: 400px;
   height: 400px;
 }
@@ -113,4 +184,39 @@
 @font-face {
   font-family: Rokkitt-VariableFont_wght;
   src: url(../assets/font/Rokkitt-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Mandali-Regular;
+  src: url(../assets/font/Mandali-Regular.ttf);
+}
+.diseñocard {
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  margin-bottom: 20px;
+}
+.diseñocard .botoncard {
+  width: 100%;
+  color: white;
+  background: #790000;
+}
+
+.diseñotestimonios {
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.diseñoform {
+  padding: 20px; /* Añade relleno al contenedor */
+  border: 1px solid #ccc; /* Agrega un borde al contenedor */
+  border-radius: 10px; /* Añade esquinas redondeadas al contenedor */
+  background-color: #fff; /* Fondo blanco para el contenedor */
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1); /* Agrega una sombra al contenedor */
+}
+.diseñoform .botoncontacto {
+  width: 100%;
+  padding: 20px; /* Añade relleno al contenedor */
+  border: 1px solid #ccc; /* Agrega un borde al contenedor */
+  border-radius: 10px; /* Añade esquinas redondeadas al contenedor */
+  font-size: 20px;
+  background-color: rgba(167, 163, 163, 0.151);
 }/*# sourceMappingURL=estilos.css.map */

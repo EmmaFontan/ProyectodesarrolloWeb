@@ -1,6 +1,59 @@
 .contenedorflexrow {
     @include contenedorflexrow (row)}
+
+.tamañodetextoheader{
+    font-size: 1.8rem;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    font-family: $font-secundario;
     
+}    
 .tamañoimagen {
+    margin-bottom: 20px;
+    border-radius: 10px; /* Agrega bordes redondeados */
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75); /* Agrega un sombreado suave */
+    }
+.tamañoimagen2{
     height: 600px;
-}
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);}
+
+    .tamañodetextoheaderh3 {
+        margin-top: 50px;
+        font-size: 2.1rem;
+        letter-spacing: 2px;
+        font-family: $font-secundario;
+
+    }
+
+    @media (max-width: 768px) {
+        
+        .tamañotitulo {
+            font-size: 18px; /* Cambia el tamaño del título en dispositivos móviles */
+        }
+    
+        .tamañodetextoheader{
+
+            font-size: 18px; /* Cambia el tamaño del texto de encabezado en dispositivos móviles */
+           
+        }
+    
+        .tamañodetextoheaderh3 {
+            font-size: 18px; /* Cambia el tamaño del texto de encabezado h3 en dispositivos móviles */
+            margin-top: 10px;
+            margin-bottom: 10px;
+            
+        } 
+        .tamañoimagen {
+            width: 100%;
+            margin-bottom: 10px;}
+           
+        .tamañoimagen2 {
+            width: 100%;
+            margin-bottom: 10px;
+            
+        }
+    }

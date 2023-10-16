@@ -1,4 +1,12 @@
 .tamañotitulo {
     font-size: 4rem;
     color: map-get($mapa-colores, color-bordo);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    @media (max-width: 768px) {
+        margin-top: 10px;
+        font-size: 3rem;
+    
+
+    }
+            
 }
