@@ -13,5 +13,10 @@
             border-radius: 10px; /* Añade esquinas redondeadas al contenedor */
             font-size: 20px;
         background-color: rgba(167, 163, 163, 0.151);}
+        .botoncontacto:hover {
+            background-color:map-get($mapa-colores, color-bordo); /* Cambia el color de fondo cuando se pasa el mouse por encima */
+            color: #ffffff; /* Cambia el color del texto cuando se pasa el mouse por encima */
+        }
+        
 }
 
